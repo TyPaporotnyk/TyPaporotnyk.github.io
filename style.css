@@ -80,6 +80,10 @@ nav .menu li:hover{
     z-index: 3;
 }
 
+.side-bar .accept{
+    margin-left: 30px;
+}
+
 .side-bar h2{
     text-transform: uppercase;
     text-align: center;
