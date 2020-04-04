@@ -71,7 +71,8 @@ nav .menu li:hover{
     position: sticky;
     float: left;
     top: 1em;
-    margin: 20px;
+    margin: 30px 0 0 20px;
+    
     border:#fed136 solid 2px ;
     border-radius: 5px;
     background-color:#484543 ;
