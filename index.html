@@ -2,209 +2,82 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Golde-one</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animate.css">
-    <link rel="shortcut icon" type="image/ico" href="ico/unnamed.ico"/>
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/scrol.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
 </head>
 <body>
     <header>
-        <div  class="container">
-            <div class="navigation">
-                <img src="img/logo.png" alt="Logo" class="logo" id="home">
-                <nav id="menu">
-                    <ul class="menu">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contacts">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="content">
-                <h1>Welcome To Our Studio!</h1>
-                <p>It’s nice to Meet you</p>
-                <a href="#tellme" >Tell Me More</a>                   
-            </div>
+        <div class="indent">
+            
         </div>
     </header>
-    
     <main>
-        <aside class="side-bar">
-            <h2 class="name-side-bar">Sidebar</h2>
-            <ul id="sideMenu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contacts">Contact</a></li>
-            </ul>
-            <p class="accept">
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                    <img style="border:0;width:88px;height:31px"
-                        src="https://jigsaw.w3.org/css-validator/images/vcss"
-                        alt="Правильный CSS!" />
-                </a>
-            </p>
-        </aside>
-        <section id="services">
-            <div class="container">
-                <div class="name" >
-                    <h2>Services</h2>
-                    <p>Proin iaculis purus consequat sem cure. </p>
-                 
+        <div class="indent">
+            <div class="panel panel-1">
+                <div class="title">
+                    Список пользователей
                 </div>
-                <div class="suggestions wow fadeIn" data-wow-offset="200" data-wow-duration="2s">
-                    <div class="element element-number-1">
-                        <img src="img/icon1.png" alt="basket">
-                        <h3>E-Commerce</h3>
-                        <p>
-                            Proin iaculis purus consequat sem cure 
-                            digni ssim. Donec porttitora entum suscipit 
-                            aenean rhoncus posuere odio in tincidunt.
-                        </p>
-                    </div>
-                    <div class="element element-number-2">
-                        <img src="img/icon2.png" alt="basket">
-                        <h3>Responsive Web</h3>
-                        <p>
-                            Proin iaculis purus consequat sem cure 
-                            digni ssim. Donec porttitora entum suscipit 
-                            aenean rhoncus posuere odio in tincidunt.
-                        </p>
-                    </div>
-                    <div class="element element-number-3">
-                        <img src="img/icon3.png" alt="basket">
-                        <h3>Web Security</h3>
-                        <p>
-                            Proin iaculis purus consequat sem cure 
-                            digni ssim. Donec porttitora entum suscipit 
-                            aenean rhoncus posuere odio in tincidunt.
-                        </p>
-                    </div>
+                <div class="content">
+                    <button alt="Добывить пользователя">+</button>
+                    <ol>
+                        <li>Слава</li>
+                        <li>Леша</li>
+                        <li>Женя</li>
+                        <li>Вова</li>
+                        <li>Катя</li>
+                    </ol>
                 </div>
             </div>
-        </section>
-        <section id="portfolio">
-            <div class="container">
-                <div class="name">
-                    <h2>Our portfolio</h2>
-                    <p>Proin iaculis purus consequat sem cure. </p>
+            <div class="panel panel-2">
+                <div class="title">
+                    Отправить сообщение
                 </div>
-                <div class="portfolio wow fadeInLeft" data-wow-offset="300">
-                    <ul>
-                        <li><div class="descr">
-                            <h2>Descripions</h2>
-                            <p>
-                                Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt. Proin 
-                                iaculis purus consequat sem cure digni 
-                                ssim. Donec porttitora entum suscipit.
-                            </p>
-                        </div>
-                            <img src="img/img1.jpg" alt=""></li>
-                        <li><div class="descr"><h2>Descripions</h2>
-                            <p>
-                                Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt. Proin 
-                                iaculis purus consequat sem cure digni 
-                                ssim. Donec porttitora entum suscipit.
-                            </p></div><img src="img/img2.jpg" alt=""></li>
-                        <li><div class="descr"><h2>Descripions</h2>
-                            <p>
-                                Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt. Proin 
-                                iaculis purus consequat sem cure digni 
-                                ssim. Donec porttitora entum suscipit.
-                            </p></div><img src="img/img3.jpg" alt=""></li>
-                    </ul>
+                <div class="content">
+                    <form>
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Test">
+                        <input type="hidden" name="admin_email" value="daniil.svadkovsky@mail.com">
+                        <input type="hidden" name="form_subject" value="Form Subject">
+                        <!-- END Hidden Required Fields -->
+                
+                        <input type="text" name="Name" placeholder="You name..." required><br>
+                        <input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+                        <input type="text" name="Phone" placeholder="You phone..."><br>
+                        <button>Send</button>
+                    </form>
                 </div>
             </div>
-        </section>
-        <section id="about">
-            <div class="container">
-                <div class="name">
-                    <h2>About Us</h2>
-                    <p>Proin iaculis purus consequat sem cure. </p>
+            <div class="panel panel-3">
+                <div class="title">
+                    Стрницы
                 </div>
-                <div class="gallery" >
-                    <div class="element element-number-1 wow fadeIn" data-wow-offset="200">
-                        <div class="description">
-                            <h2>July 2010
-                                Our Humble Beginnings</h2>
-                            <p>Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt. Proin 
-                                iaculis purus consequat sem cure digni 
-                                ssim. Donec porttitora entum suscipit.</p>
-                        </div>
-                        <img src="img/about1.jpg" alt="">
-                    </div>
-                    <div class="element element-number-2 wow fadeIn" data-wow-offset="200">
-                        <img src="img/about2.jpg" alt="">
-                        <div class="description">
-                            <h2>July 2010
-                                Our Humble Beginnings</h2>
-                            <p>Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt. Proin 
-                                iaculis purus consequat sem cure digni 
-                                ssim. Donec porttitora entum suscipit.</p>
-                        </div>
-                        
-                    </div>
-                    <div class="element element-number-3 wow fadeIn" data-wow-offset="200">
-                        <div class="description">
-                            <h2>July 2010
-                                Our Humble Beginnings</h2>
-                            <p>Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt. Proin 
-                                iaculis purus consequat sem cure digni 
-                                ssim. Donec porttitora entum suscipit.</p>
-                        </div>
-                        <img src="img/about3.jpg" alt="">
-                    </div>
-                    <div class="element element-number-4 wow fadeIn" data-wow-offset="200">
-                        <img src="img/about4.jpg" alt="">
-                        <div class="description">
-                            <h2>July 2010
-                                Our Humble Beginnings</h2>
-                            <p>Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt. Proin 
-                                iaculis purus consequat sem cure digni 
-                                ssim. Donec porttitora entum suscipit.</p>
-                        </div>    
-                    </div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Animi maiores laudantium, 
+                    nemo doloremque voluptatum cumque perferendis repellat soluta 
+                    labore aut, accusantium, inventore voluptates
+                    praesentium laborum quaerat quos sequi explicabo modi.
                 </div>
             </div>
-        </section>
-        <section id="tellme">
-            <div class="name">
-                <h2>Tell me</h2>
-                <p>Proin iaculis purus consequat sem cure. </p>
+            <div class="panel panel-4">
+                <div class="title">
+                    Стрницы
+                </div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Animi maiores laudantium, 
+                    nemo doloremque voluptatum cumque perferendis repellat soluta 
+                    labore aut, accusantium, inventore voluptates
+                    praesentium laborum quaerat quos sequi explicabo modi.
+                </div>
             </div>
-            <div class="send">
-
-            </div>
-        </section>
+        </div>
     </main>
-    <footer id="contacts">
-        <p>© Copyright 2014 FreebiesXpress.com</p>
-        <p>Telephone: +380 (098)026-86-38</p>
-        <p>Email: daniil.svadkovsky@gmail.com</p>
+    <footer>
+
     </footer>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
