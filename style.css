@@ -9,6 +9,7 @@ li{
 header{
     background-color: gray;
     height: 100px;
+    width: 100%;
     margin-bottom: 30px;
 }
 .indent{
@@ -88,4 +89,26 @@ header{
 
 .panel-6 {
     float: right;
+}
+
+@media screen and (max-width: 1125px){
+    .indent{
+        width: 500px;
+    }
+
+    .panel{
+        display: block; 
+    }
+
+    .panel-2 {
+        float: none;
+    }
+    
+    .galery {
+        float: none;
+    }
+    
+    .panel-6 {
+        float: none;
+    }
 }
