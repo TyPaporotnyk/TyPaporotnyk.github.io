@@ -91,7 +91,7 @@ header{
     float: right;
 }
 
-@media screen and (max-width: 1125px){
+@media screen and (max-width: 1200px){
     .indent{
         width: 500px;
     }
